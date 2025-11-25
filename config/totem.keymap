@@ -58,6 +58,11 @@
             bindings = <&kp GREATER_THAN>;
             key-positions = <17 18>;
         };
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {
