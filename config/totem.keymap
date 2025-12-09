@@ -73,20 +73,14 @@
             layers = <0 1 2>;
         };
 
-        Backspace {
-            bindings = <&kp APOSTROPHE>;
-            key-positions = <18 19>;
-            layers = <0 1>;
-        };
-
         Caps_Lock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <33 36>;
             layers = <0>;
         };
 
-        Double_Quotes {
-            bindings = <&kp DOUBLE_QUOTES>;
+        Quotes {
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <29 30>;
             layers = <0 1>;
         };
@@ -145,10 +139,10 @@
 
         num_sym {
             bindings = <
-        &kp TILDE                      &kp AMPERSAND       &kp ASTERISK         &kp DOT                &none     &none   &kp N7               &kp N8             &kp N9            &kp PIPE
-        &hml LEFT_CONTROL EXCLAMATION  &hml LEFT_ALT PLUS  &hml LEFT_WIN MINUS  &hml LEFT_SHIFT EQUAL  &none     &none   &hmr RIGHT_SHIFT N4  &hmr RIGHT_GUI N5  &hmr LEFT_ALT N6  &hmr RIGHT_CONTROL UNDER
-&trans  &kp GRAVE                      &kp DOLLAR          &kp AT               &kp HASH               &none     &none   &kp N1               &kp N2             &kp N3            &kp BACKSLASH             &trans
-                                                           &trans               &trans                 &trans    &trans  &kp N0               &trans
+        &kp TILDE                      &kp AMPERSAND        &kp ASTERISK        &kp PERCENT            &kp CARET    &kp DOUBLE_QUOTES  &kp N7               &kp N8             &kp N9            &kp PIPE
+        &hml LEFT_CONTROL EXCLAMATION  &hml LEFT_ALT MINUS  &hml LEFT_WIN PLUS  &hml LEFT_SHIFT EQUAL  &none        &kp APOSTROPHE     &hmr RIGHT_SHIFT N4  &hmr RIGHT_GUI N5  &hmr LEFT_ALT N6  &hmr RIGHT_CONTROL UNDER
+&trans  &kp GRAVE                      &kp DOLLAR           &kp AT              &kp HASH               &none        &kp DOT            &kp N1               &kp N2             &kp N3            &kp BACKSLASH             &trans
+                                                            &trans              &trans                 &trans       &trans             &kp N0               &trans
             >;
         };
 
